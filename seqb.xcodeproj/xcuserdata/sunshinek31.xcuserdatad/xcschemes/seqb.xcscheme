@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B3B77281E8D46720022574E"
+               BlueprintIdentifier = "6B90D4771E8D54710066B3C5"
                BuildableName = "seqb.app"
                BlueprintName = "seqb"
                ReferencedContainer = "container:seqb.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B3B77441E8D46720022574E"
+               BlueprintIdentifier = "6B90D4931E8D54710066B3C5"
                BuildableName = "seqbTests.xctest"
                BlueprintName = "seqbTests"
                ReferencedContainer = "container:seqb.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B3B774F1E8D46720022574E"
+               BlueprintIdentifier = "6B90D49E1E8D54710066B3C5"
                BuildableName = "seqbUITests.xctest"
                BlueprintName = "seqbUITests"
                ReferencedContainer = "container:seqb.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B3B77281E8D46720022574E"
+            BlueprintIdentifier = "6B90D4771E8D54710066B3C5"
             BuildableName = "seqb.app"
             BlueprintName = "seqb"
             ReferencedContainer = "container:seqb.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B3B77281E8D46720022574E"
+            BlueprintIdentifier = "6B90D4771E8D54710066B3C5"
             BuildableName = "seqb.app"
             BlueprintName = "seqb"
             ReferencedContainer = "container:seqb.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B3B77281E8D46720022574E"
+            BlueprintIdentifier = "6B90D4771E8D54710066B3C5"
             BuildableName = "seqb.app"
             BlueprintName = "seqb"
             ReferencedContainer = "container:seqb.xcodeproj">

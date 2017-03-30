@@ -7,77 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B3B772E1E8D46720022574E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B772D1E8D46720022574E /* main.m */; };
-		6B3B77311E8D46720022574E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B77301E8D46720022574E /* AppDelegate.m */; };
-		6B3B77341E8D46720022574E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B77331E8D46720022574E /* ViewController.m */; };
-		6B3B77371E8D46720022574E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3B77351E8D46720022574E /* Main.storyboard */; };
-		6B3B773A1E8D46720022574E /* seqb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B77381E8D46720022574E /* seqb.xcdatamodeld */; };
-		6B3B773C1E8D46720022574E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3B773B1E8D46720022574E /* Assets.xcassets */; };
-		6B3B773F1E8D46720022574E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3B773D1E8D46720022574E /* LaunchScreen.storyboard */; };
-		6B3B774A1E8D46720022574E /* seqbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B77491E8D46720022574E /* seqbTests.m */; };
-		6B3B77551E8D46720022574E /* seqbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B77541E8D46720022574E /* seqbUITests.m */; };
-		6B3B77631E8D49A00022574E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B3B77621E8D49A00022574E /* Podfile */; };
-		C8BCFC60A234E72DE08E785D /* libPods-seqb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D024CE2513A6DED85C8572 /* libPods-seqb.a */; };
+		6B90D47D1E8D54710066B3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D47C1E8D54710066B3C5 /* main.m */; };
+		6B90D4801E8D54710066B3C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D47F1E8D54710066B3C5 /* AppDelegate.m */; };
+		6B90D4831E8D54710066B3C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4821E8D54710066B3C5 /* ViewController.m */; };
+		6B90D4861E8D54710066B3C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B90D4841E8D54710066B3C5 /* Main.storyboard */; };
+		6B90D4891E8D54710066B3C5 /* seqb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4871E8D54710066B3C5 /* seqb.xcdatamodeld */; };
+		6B90D48B1E8D54710066B3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B90D48A1E8D54710066B3C5 /* Assets.xcassets */; };
+		6B90D48E1E8D54710066B3C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B90D48C1E8D54710066B3C5 /* LaunchScreen.storyboard */; };
+		6B90D4991E8D54710066B3C5 /* seqbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4981E8D54710066B3C5 /* seqbTests.m */; };
+		6B90D4A41E8D54710066B3C5 /* seqbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4A31E8D54710066B3C5 /* seqbUITests.m */; };
+		6B90D4B21E8D54E20066B3C5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B90D4B11E8D54E20066B3C5 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B3B77461E8D46720022574E /* PBXContainerItemProxy */ = {
+		6B90D4951E8D54710066B3C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B3B77211E8D46720022574E /* Project object */;
+			containerPortal = 6B90D4701E8D54710066B3C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6B3B77281E8D46720022574E;
+			remoteGlobalIDString = 6B90D4771E8D54710066B3C5;
 			remoteInfo = seqb;
 		};
-		6B3B77511E8D46720022574E /* PBXContainerItemProxy */ = {
+		6B90D4A01E8D54710066B3C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6B3B77211E8D46720022574E /* Project object */;
+			containerPortal = 6B90D4701E8D54710066B3C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6B3B77281E8D46720022574E;
+			remoteGlobalIDString = 6B90D4771E8D54710066B3C5;
 			remoteInfo = seqb;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B3B77291E8D46720022574E /* seqb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seqb.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B3B772D1E8D46720022574E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B3B772F1E8D46720022574E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6B3B77301E8D46720022574E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B3B77321E8D46720022574E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B3B77331E8D46720022574E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6B3B77361E8D46720022574E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B3B77391E8D46720022574E /* seqb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = seqb.xcdatamodel; sourceTree = "<group>"; };
-		6B3B773B1E8D46720022574E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6B3B773E1E8D46720022574E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6B3B77401E8D46720022574E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B3B77451E8D46720022574E /* seqbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seqbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B3B77491E8D46720022574E /* seqbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbTests.m; sourceTree = "<group>"; };
-		6B3B774B1E8D46720022574E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B3B77501E8D46720022574E /* seqbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seqbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B3B77541E8D46720022574E /* seqbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbUITests.m; sourceTree = "<group>"; };
-		6B3B77561E8D46720022574E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B3B77621E8D49A00022574E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		6EB45E6A237F60122E7EEA4C /* Pods-seqb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.release.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.release.xcconfig"; sourceTree = "<group>"; };
-		B2D024CE2513A6DED85C8572 /* libPods-seqb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seqb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B656C15E69B0EC0FBCDEDAE4 /* Pods-seqb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.debug.xcconfig"; sourceTree = "<group>"; };
+		6B90D4781E8D54710066B3C5 /* seqb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seqb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B90D47C1E8D54710066B3C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B90D47E1E8D54710066B3C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B90D47F1E8D54710066B3C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B90D4811E8D54710066B3C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B90D4821E8D54710066B3C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B90D4851E8D54710066B3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B90D4881E8D54710066B3C5 /* seqb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = seqb.xcdatamodel; sourceTree = "<group>"; };
+		6B90D48A1E8D54710066B3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B90D48D1E8D54710066B3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B90D48F1E8D54710066B3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B90D4941E8D54710066B3C5 /* seqbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seqbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B90D4981E8D54710066B3C5 /* seqbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbTests.m; sourceTree = "<group>"; };
+		6B90D49A1E8D54710066B3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B90D49F1E8D54710066B3C5 /* seqbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seqbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B90D4A31E8D54710066B3C5 /* seqbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbUITests.m; sourceTree = "<group>"; };
+		6B90D4A51E8D54710066B3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B90D4B11E8D54E20066B3C5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B3B77261E8D46720022574E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8BCFC60A234E72DE08E785D /* libPods-seqb.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B3B77421E8D46720022574E /* Frameworks */ = {
+		6B90D4751E8D54710066B3C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B3B774D1E8D46720022574E /* Frameworks */ = {
+		6B90D4911E8D54710066B3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B90D49C1E8D54710066B3C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,126 +82,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		589A77FF03CB3503D1FEEE3F /* Pods */ = {
+		6B90D46F1E8D54710066B3C5 = {
 			isa = PBXGroup;
 			children = (
-				B656C15E69B0EC0FBCDEDAE4 /* Pods-seqb.debug.xcconfig */,
-				6EB45E6A237F60122E7EEA4C /* Pods-seqb.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6B3B77201E8D46720022574E = {
-			isa = PBXGroup;
-			children = (
-				6B3B77621E8D49A00022574E /* Podfile */,
-				6B3B772B1E8D46720022574E /* seqb */,
-				6B3B77481E8D46720022574E /* seqbTests */,
-				6B3B77531E8D46720022574E /* seqbUITests */,
-				6B3B772A1E8D46720022574E /* Products */,
-				589A77FF03CB3503D1FEEE3F /* Pods */,
-				A6D992EB63119408F603466D /* Frameworks */,
+				6B90D4B11E8D54E20066B3C5 /* Podfile */,
+				6B90D47A1E8D54710066B3C5 /* seqb */,
+				6B90D4971E8D54710066B3C5 /* seqbTests */,
+				6B90D4A21E8D54710066B3C5 /* seqbUITests */,
+				6B90D4791E8D54710066B3C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6B3B772A1E8D46720022574E /* Products */ = {
+		6B90D4791E8D54710066B3C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B3B77291E8D46720022574E /* seqb.app */,
-				6B3B77451E8D46720022574E /* seqbTests.xctest */,
-				6B3B77501E8D46720022574E /* seqbUITests.xctest */,
+				6B90D4781E8D54710066B3C5 /* seqb.app */,
+				6B90D4941E8D54710066B3C5 /* seqbTests.xctest */,
+				6B90D49F1E8D54710066B3C5 /* seqbUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B3B772B1E8D46720022574E /* seqb */ = {
+		6B90D47A1E8D54710066B3C5 /* seqb */ = {
 			isa = PBXGroup;
 			children = (
-				6B3B77681E8D4C9B0022574E /* resources */,
-				6B3B77671E8D4C7F0022574E /* common */,
-				6B3B77661E8D4C520022574E /* util */,
-				6B3B772C1E8D46720022574E /* Supporting Files */,
+				6B90D47E1E8D54710066B3C5 /* AppDelegate.h */,
+				6B90D47F1E8D54710066B3C5 /* AppDelegate.m */,
+				6B90D4811E8D54710066B3C5 /* ViewController.h */,
+				6B90D4821E8D54710066B3C5 /* ViewController.m */,
+				6B90D4841E8D54710066B3C5 /* Main.storyboard */,
+				6B90D48A1E8D54710066B3C5 /* Assets.xcassets */,
+				6B90D48C1E8D54710066B3C5 /* LaunchScreen.storyboard */,
+				6B90D48F1E8D54710066B3C5 /* Info.plist */,
+				6B90D4871E8D54710066B3C5 /* seqb.xcdatamodeld */,
+				6B90D47B1E8D54710066B3C5 /* Supporting Files */,
 			);
 			path = seqb;
 			sourceTree = "<group>";
 		};
-		6B3B772C1E8D46720022574E /* Supporting Files */ = {
+		6B90D47B1E8D54710066B3C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B3B772F1E8D46720022574E /* AppDelegate.h */,
-				6B3B77301E8D46720022574E /* AppDelegate.m */,
-				6B3B77321E8D46720022574E /* ViewController.h */,
-				6B3B77331E8D46720022574E /* ViewController.m */,
-				6B3B77351E8D46720022574E /* Main.storyboard */,
-				6B3B773B1E8D46720022574E /* Assets.xcassets */,
-				6B3B773D1E8D46720022574E /* LaunchScreen.storyboard */,
-				6B3B77401E8D46720022574E /* Info.plist */,
-				6B3B77381E8D46720022574E /* seqb.xcdatamodeld */,
-				6B3B772D1E8D46720022574E /* main.m */,
+				6B90D47C1E8D54710066B3C5 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6B3B77481E8D46720022574E /* seqbTests */ = {
+		6B90D4971E8D54710066B3C5 /* seqbTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B3B77491E8D46720022574E /* seqbTests.m */,
-				6B3B774B1E8D46720022574E /* Info.plist */,
+				6B90D4981E8D54710066B3C5 /* seqbTests.m */,
+				6B90D49A1E8D54710066B3C5 /* Info.plist */,
 			);
 			path = seqbTests;
 			sourceTree = "<group>";
 		};
-		6B3B77531E8D46720022574E /* seqbUITests */ = {
+		6B90D4A21E8D54710066B3C5 /* seqbUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6B3B77541E8D46720022574E /* seqbUITests.m */,
-				6B3B77561E8D46720022574E /* Info.plist */,
+				6B90D4A31E8D54710066B3C5 /* seqbUITests.m */,
+				6B90D4A51E8D54710066B3C5 /* Info.plist */,
 			);
 			path = seqbUITests;
-			sourceTree = "<group>";
-		};
-		6B3B77661E8D4C520022574E /* util */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = util;
-			sourceTree = "<group>";
-		};
-		6B3B77671E8D4C7F0022574E /* common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = common;
-			sourceTree = "<group>";
-		};
-		6B3B77681E8D4C9B0022574E /* resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
-		A6D992EB63119408F603466D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B2D024CE2513A6DED85C8572 /* libPods-seqb.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6B3B77281E8D46720022574E /* seqb */ = {
+		6B90D4771E8D54710066B3C5 /* seqb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B3B77591E8D46720022574E /* Build configuration list for PBXNativeTarget "seqb" */;
+			buildConfigurationList = 6B90D4A81E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqb" */;
 			buildPhases = (
-				2FBB68F560CE1DE365E37F5C /* [CP] Check Pods Manifest.lock */,
-				6B3B77251E8D46720022574E /* Sources */,
-				6B3B77261E8D46720022574E /* Frameworks */,
-				6B3B77271E8D46720022574E /* Resources */,
-				EB171C68882B11BAB4704063 /* [CP] Embed Pods Frameworks */,
-				A8C557870E2BF062440AA3AE /* [CP] Copy Pods Resources */,
+				6B90D4741E8D54710066B3C5 /* Sources */,
+				6B90D4751E8D54710066B3C5 /* Frameworks */,
+				6B90D4761E8D54710066B3C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,74 +163,74 @@
 			);
 			name = seqb;
 			productName = seqb;
-			productReference = 6B3B77291E8D46720022574E /* seqb.app */;
+			productReference = 6B90D4781E8D54710066B3C5 /* seqb.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B3B77441E8D46720022574E /* seqbTests */ = {
+		6B90D4931E8D54710066B3C5 /* seqbTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B3B775C1E8D46720022574E /* Build configuration list for PBXNativeTarget "seqbTests" */;
+			buildConfigurationList = 6B90D4AB1E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqbTests" */;
 			buildPhases = (
-				6B3B77411E8D46720022574E /* Sources */,
-				6B3B77421E8D46720022574E /* Frameworks */,
-				6B3B77431E8D46720022574E /* Resources */,
+				6B90D4901E8D54710066B3C5 /* Sources */,
+				6B90D4911E8D54710066B3C5 /* Frameworks */,
+				6B90D4921E8D54710066B3C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B3B77471E8D46720022574E /* PBXTargetDependency */,
+				6B90D4961E8D54710066B3C5 /* PBXTargetDependency */,
 			);
 			name = seqbTests;
 			productName = seqbTests;
-			productReference = 6B3B77451E8D46720022574E /* seqbTests.xctest */;
+			productReference = 6B90D4941E8D54710066B3C5 /* seqbTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6B3B774F1E8D46720022574E /* seqbUITests */ = {
+		6B90D49E1E8D54710066B3C5 /* seqbUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B3B775F1E8D46720022574E /* Build configuration list for PBXNativeTarget "seqbUITests" */;
+			buildConfigurationList = 6B90D4AE1E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqbUITests" */;
 			buildPhases = (
-				6B3B774C1E8D46720022574E /* Sources */,
-				6B3B774D1E8D46720022574E /* Frameworks */,
-				6B3B774E1E8D46720022574E /* Resources */,
+				6B90D49B1E8D54710066B3C5 /* Sources */,
+				6B90D49C1E8D54710066B3C5 /* Frameworks */,
+				6B90D49D1E8D54710066B3C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B3B77521E8D46720022574E /* PBXTargetDependency */,
+				6B90D4A11E8D54710066B3C5 /* PBXTargetDependency */,
 			);
 			name = seqbUITests;
 			productName = seqbUITests;
-			productReference = 6B3B77501E8D46720022574E /* seqbUITests.xctest */;
+			productReference = 6B90D49F1E8D54710066B3C5 /* seqbUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B3B77211E8D46720022574E /* Project object */ = {
+		6B90D4701E8D54710066B3C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = sunshinek31;
 				TargetAttributes = {
-					6B3B77281E8D46720022574E = {
+					6B90D4771E8D54710066B3C5 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 4QN5NC67EK;
 						ProvisioningStyle = Automatic;
 					};
-					6B3B77441E8D46720022574E = {
+					6B90D4931E8D54710066B3C5 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 4QN5NC67EK;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 6B3B77281E8D46720022574E;
+						TestTargetID = 6B90D4771E8D54710066B3C5;
 					};
-					6B3B774F1E8D46720022574E = {
+					6B90D49E1E8D54710066B3C5 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 4QN5NC67EK;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 6B3B77281E8D46720022574E;
+						TestTargetID = 6B90D4771E8D54710066B3C5;
 					};
 				};
 			};
-			buildConfigurationList = 6B3B77241E8D46720022574E /* Build configuration list for PBXProject "seqb" */;
+			buildConfigurationList = 6B90D4731E8D54710066B3C5 /* Build configuration list for PBXProject "seqb" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -289,38 +238,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 6B3B77201E8D46720022574E;
-			productRefGroup = 6B3B772A1E8D46720022574E /* Products */;
+			mainGroup = 6B90D46F1E8D54710066B3C5;
+			productRefGroup = 6B90D4791E8D54710066B3C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B3B77281E8D46720022574E /* seqb */,
-				6B3B77441E8D46720022574E /* seqbTests */,
-				6B3B774F1E8D46720022574E /* seqbUITests */,
+				6B90D4771E8D54710066B3C5 /* seqb */,
+				6B90D4931E8D54710066B3C5 /* seqbTests */,
+				6B90D49E1E8D54710066B3C5 /* seqbUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B3B77271E8D46720022574E /* Resources */ = {
+		6B90D4761E8D54710066B3C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3B773F1E8D46720022574E /* LaunchScreen.storyboard in Resources */,
-				6B3B773C1E8D46720022574E /* Assets.xcassets in Resources */,
-				6B3B77631E8D49A00022574E /* Podfile in Resources */,
-				6B3B77371E8D46720022574E /* Main.storyboard in Resources */,
+				6B90D48E1E8D54710066B3C5 /* LaunchScreen.storyboard in Resources */,
+				6B90D48B1E8D54710066B3C5 /* Assets.xcassets in Resources */,
+				6B90D4B21E8D54E20066B3C5 /* Podfile in Resources */,
+				6B90D4861E8D54710066B3C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B3B77431E8D46720022574E /* Resources */ = {
+		6B90D4921E8D54710066B3C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B3B774E1E8D46720022574E /* Resources */ = {
+		6B90D49D1E8D54710066B3C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,110 +278,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2FBB68F560CE1DE365E37F5C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A8C557870E2BF062440AA3AE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seqb/Pods-seqb-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB171C68882B11BAB4704063 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seqb/Pods-seqb-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6B3B77251E8D46720022574E /* Sources */ = {
+		6B90D4741E8D54710066B3C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3B773A1E8D46720022574E /* seqb.xcdatamodeld in Sources */,
-				6B3B77341E8D46720022574E /* ViewController.m in Sources */,
-				6B3B77311E8D46720022574E /* AppDelegate.m in Sources */,
-				6B3B772E1E8D46720022574E /* main.m in Sources */,
+				6B90D4891E8D54710066B3C5 /* seqb.xcdatamodeld in Sources */,
+				6B90D4831E8D54710066B3C5 /* ViewController.m in Sources */,
+				6B90D4801E8D54710066B3C5 /* AppDelegate.m in Sources */,
+				6B90D47D1E8D54710066B3C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B3B77411E8D46720022574E /* Sources */ = {
+		6B90D4901E8D54710066B3C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3B774A1E8D46720022574E /* seqbTests.m in Sources */,
+				6B90D4991E8D54710066B3C5 /* seqbTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B3B774C1E8D46720022574E /* Sources */ = {
+		6B90D49B1E8D54710066B3C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3B77551E8D46720022574E /* seqbUITests.m in Sources */,
+				6B90D4A41E8D54710066B3C5 /* seqbUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B3B77471E8D46720022574E /* PBXTargetDependency */ = {
+		6B90D4961E8D54710066B3C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B3B77281E8D46720022574E /* seqb */;
-			targetProxy = 6B3B77461E8D46720022574E /* PBXContainerItemProxy */;
+			target = 6B90D4771E8D54710066B3C5 /* seqb */;
+			targetProxy = 6B90D4951E8D54710066B3C5 /* PBXContainerItemProxy */;
 		};
-		6B3B77521E8D46720022574E /* PBXTargetDependency */ = {
+		6B90D4A11E8D54710066B3C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6B3B77281E8D46720022574E /* seqb */;
-			targetProxy = 6B3B77511E8D46720022574E /* PBXContainerItemProxy */;
+			target = 6B90D4771E8D54710066B3C5 /* seqb */;
+			targetProxy = 6B90D4A01E8D54710066B3C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6B3B77351E8D46720022574E /* Main.storyboard */ = {
+		6B90D4841E8D54710066B3C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B3B77361E8D46720022574E /* Base */,
+				6B90D4851E8D54710066B3C5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6B3B773D1E8D46720022574E /* LaunchScreen.storyboard */ = {
+		6B90D48C1E8D54710066B3C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B3B773E1E8D46720022574E /* Base */,
+				6B90D48D1E8D54710066B3C5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -440,7 +341,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6B3B77571E8D46720022574E /* Debug */ = {
+		6B90D4A61E8D54710066B3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -489,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		6B3B77581E8D46720022574E /* Release */ = {
+		6B90D4A71E8D54710066B3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -532,9 +433,8 @@
 			};
 			name = Release;
 		};
-		6B3B775A1E8D46720022574E /* Debug */ = {
+		6B90D4A91E8D54710066B3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B656C15E69B0EC0FBCDEDAE4 /* Pods-seqb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4QN5NC67EK;
@@ -545,9 +445,8 @@
 			};
 			name = Debug;
 		};
-		6B3B775B1E8D46720022574E /* Release */ = {
+		6B90D4AA1E8D54710066B3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EB45E6A237F60122E7EEA4C /* Pods-seqb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4QN5NC67EK;
@@ -558,7 +457,7 @@
 			};
 			name = Release;
 		};
-		6B3B775D1E8D46720022574E /* Debug */ = {
+		6B90D4AC1E8D54710066B3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,7 +470,7 @@
 			};
 			name = Debug;
 		};
-		6B3B775E1E8D46720022574E /* Release */ = {
+		6B90D4AD1E8D54710066B3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,7 +483,7 @@
 			};
 			name = Release;
 		};
-		6B3B77601E8D46720022574E /* Debug */ = {
+		6B90D4AF1E8D54710066B3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 4QN5NC67EK;
@@ -596,7 +495,7 @@
 			};
 			name = Debug;
 		};
-		6B3B77611E8D46720022574E /* Release */ = {
+		6B90D4B01E8D54710066B3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 4QN5NC67EK;
@@ -611,38 +510,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B3B77241E8D46720022574E /* Build configuration list for PBXProject "seqb" */ = {
+		6B90D4731E8D54710066B3C5 /* Build configuration list for PBXProject "seqb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3B77571E8D46720022574E /* Debug */,
-				6B3B77581E8D46720022574E /* Release */,
+				6B90D4A61E8D54710066B3C5 /* Debug */,
+				6B90D4A71E8D54710066B3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B3B77591E8D46720022574E /* Build configuration list for PBXNativeTarget "seqb" */ = {
+		6B90D4A81E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3B775A1E8D46720022574E /* Debug */,
-				6B3B775B1E8D46720022574E /* Release */,
+				6B90D4A91E8D54710066B3C5 /* Debug */,
+				6B90D4AA1E8D54710066B3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B3B775C1E8D46720022574E /* Build configuration list for PBXNativeTarget "seqbTests" */ = {
+		6B90D4AB1E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqbTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3B775D1E8D46720022574E /* Debug */,
-				6B3B775E1E8D46720022574E /* Release */,
+				6B90D4AC1E8D54710066B3C5 /* Debug */,
+				6B90D4AD1E8D54710066B3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B3B775F1E8D46720022574E /* Build configuration list for PBXNativeTarget "seqbUITests" */ = {
+		6B90D4AE1E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqbUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3B77601E8D46720022574E /* Debug */,
-				6B3B77611E8D46720022574E /* Release */,
+				6B90D4AF1E8D54710066B3C5 /* Debug */,
+				6B90D4B01E8D54710066B3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -650,17 +549,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6B3B77381E8D46720022574E /* seqb.xcdatamodeld */ = {
+		6B90D4871E8D54710066B3C5 /* seqb.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6B3B77391E8D46720022574E /* seqb.xcdatamodel */,
+				6B90D4881E8D54710066B3C5 /* seqb.xcdatamodel */,
 			);
-			currentVersion = 6B3B77391E8D46720022574E /* seqb.xcdatamodel */;
+			currentVersion = 6B90D4881E8D54710066B3C5 /* seqb.xcdatamodel */;
 			path = seqb.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 6B3B77211E8D46720022574E /* Project object */;
+	rootObject = 6B90D4701E8D54710066B3C5 /* Project object */;
 }
