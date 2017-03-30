@@ -2,7 +2,7 @@
 //  seqbUITests.m
 //  seqbUITests
 //
-//  Created by 金晨 on 2017/3/30.
+//  Created by sunshinek31 on 2017/3/30.
 //  Copyright © 2017年 sunshinek31. All rights reserved.
 //
 

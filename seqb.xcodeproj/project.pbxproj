@@ -18,6 +18,11 @@
 		6B90D4991E8D54710066B3C5 /* seqbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4981E8D54710066B3C5 /* seqbTests.m */; };
 		6B90D4A41E8D54710066B3C5 /* seqbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4A31E8D54710066B3C5 /* seqbUITests.m */; };
 		6B90D4B21E8D54E20066B3C5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B90D4B11E8D54E20066B3C5 /* Podfile */; };
+		6B90D4BE1E8D69DF0066B3C5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4BD1E8D69DF0066B3C5 /* UIColor+Hex.m */; };
+		6B90D4C81E8D69F80066B3C5 /* SSKSessionWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4C31E8D69F80066B3C5 /* SSKSessionWebservice.m */; };
+		6B90D4C91E8D69F80066B3C5 /* SSKBaseWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4C51E8D69F80066B3C5 /* SSKBaseWebservice.m */; };
+		6B90D4CA1E8D69F80066B3C5 /* SSKAFNetworkWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4C71E8D69F80066B3C5 /* SSKAFNetworkWebservice.m */; };
+		6B90D4CD1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4CC1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,18 @@
 		6B90D4A31E8D54710066B3C5 /* seqbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbUITests.m; sourceTree = "<group>"; };
 		6B90D4A51E8D54710066B3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B90D4B11E8D54E20066B3C5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6B90D4BC1E8D69DF0066B3C5 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6B90D4BD1E8D69DF0066B3C5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6B90D4C01E8D69F80066B3C5 /* SSKWebserviceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKWebserviceConfiguration.h; sourceTree = "<group>"; };
+		6B90D4C11E8D69F80066B3C5 /* SSKWebserviceProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKWebserviceProtocal.h; sourceTree = "<group>"; };
+		6B90D4C21E8D69F80066B3C5 /* SSKSessionWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKSessionWebservice.h; sourceTree = "<group>"; };
+		6B90D4C31E8D69F80066B3C5 /* SSKSessionWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKSessionWebservice.m; sourceTree = "<group>"; };
+		6B90D4C41E8D69F80066B3C5 /* SSKBaseWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKBaseWebservice.h; sourceTree = "<group>"; };
+		6B90D4C51E8D69F80066B3C5 /* SSKBaseWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKBaseWebservice.m; sourceTree = "<group>"; };
+		6B90D4C61E8D69F80066B3C5 /* SSKAFNetworkWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKAFNetworkWebservice.h; sourceTree = "<group>"; };
+		6B90D4C71E8D69F80066B3C5 /* SSKAFNetworkWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKAFNetworkWebservice.m; sourceTree = "<group>"; };
+		6B90D4CB1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Obj2Dict.h"; sourceTree = "<group>"; };
+		6B90D4CC1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Obj2Dict.m"; sourceTree = "<group>"; };
 		A61F697BDF528302C9BAAEEE /* libPods-seqb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seqb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF233E0F7B8E76ED4686DC4D /* Pods-seqb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +194,8 @@
 		6B90D4B81E8D68FB0066B3C5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6B90D4CB1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.h */,
+				6B90D4CC1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -184,6 +203,9 @@
 		6B90D4B91E8D69080066B3C5 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6B90D4BF1E8D69E30066B3C5 /* Http */,
+				6B90D4BC1E8D69DF0066B3C5 /* UIColor+Hex.h */,
+				6B90D4BD1E8D69DF0066B3C5 /* UIColor+Hex.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -200,6 +222,21 @@
 			children = (
 			);
 			path = Feature;
+			sourceTree = "<group>";
+		};
+		6B90D4BF1E8D69E30066B3C5 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				6B90D4C01E8D69F80066B3C5 /* SSKWebserviceConfiguration.h */,
+				6B90D4C11E8D69F80066B3C5 /* SSKWebserviceProtocal.h */,
+				6B90D4C21E8D69F80066B3C5 /* SSKSessionWebservice.h */,
+				6B90D4C31E8D69F80066B3C5 /* SSKSessionWebservice.m */,
+				6B90D4C41E8D69F80066B3C5 /* SSKBaseWebservice.h */,
+				6B90D4C51E8D69F80066B3C5 /* SSKBaseWebservice.m */,
+				6B90D4C61E8D69F80066B3C5 /* SSKAFNetworkWebservice.h */,
+				6B90D4C71E8D69F80066B3C5 /* SSKAFNetworkWebservice.m */,
+			);
+			name = Http;
 			sourceTree = "<group>";
 		};
 		75EF50C57DD777485B50822E /* Frameworks */ = {
@@ -399,9 +436,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B90D4891E8D54710066B3C5 /* seqb.xcdatamodeld in Sources */,
+				6B90D4BE1E8D69DF0066B3C5 /* UIColor+Hex.m in Sources */,
 				6B90D4831E8D54710066B3C5 /* ViewController.m in Sources */,
 				6B90D4801E8D54710066B3C5 /* AppDelegate.m in Sources */,
+				6B90D4CA1E8D69F80066B3C5 /* SSKAFNetworkWebservice.m in Sources */,
 				6B90D47D1E8D54710066B3C5 /* main.m in Sources */,
+				6B90D4CD1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m in Sources */,
+				6B90D4C91E8D69F80066B3C5 /* SSKBaseWebservice.m in Sources */,
+				6B90D4C81E8D69F80066B3C5 /* SSKSessionWebservice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
