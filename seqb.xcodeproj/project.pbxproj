@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39863BEDFEC9ED75F18D7A0C /* libPods-seqb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A61F697BDF528302C9BAAEEE /* libPods-seqb.a */; };
 		6B90D47D1E8D54710066B3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D47C1E8D54710066B3C5 /* main.m */; };
 		6B90D4801E8D54710066B3C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D47F1E8D54710066B3C5 /* AppDelegate.m */; };
 		6B90D4831E8D54710066B3C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4821E8D54710066B3C5 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EFB5F204C2A612104B962B7 /* Pods-seqb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.release.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.release.xcconfig"; sourceTree = "<group>"; };
 		6B90D4781E8D54710066B3C5 /* seqb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seqb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B90D47C1E8D54710066B3C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B90D47E1E8D54710066B3C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		6B90D4A31E8D54710066B3C5 /* seqbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbUITests.m; sourceTree = "<group>"; };
 		6B90D4A51E8D54710066B3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B90D4B11E8D54E20066B3C5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A61F697BDF528302C9BAAEEE /* libPods-seqb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seqb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF233E0F7B8E76ED4686DC4D /* Pods-seqb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39863BEDFEC9ED75F18D7A0C /* libPods-seqb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250A97BFE9DD2432268A8CE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF233E0F7B8E76ED4686DC4D /* Pods-seqb.debug.xcconfig */,
+				5EFB5F204C2A612104B962B7 /* Pods-seqb.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6B90D46F1E8D54710066B3C5 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +104,8 @@
 				6B90D4971E8D54710066B3C5 /* seqbTests */,
 				6B90D4A21E8D54710066B3C5 /* seqbUITests */,
 				6B90D4791E8D54710066B3C5 /* Products */,
+				250A97BFE9DD2432268A8CE1 /* Pods */,
+				75EF50C57DD777485B50822E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +162,14 @@
 			path = seqbUITests;
 			sourceTree = "<group>";
 		};
+		75EF50C57DD777485B50822E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61F697BDF528302C9BAAEEE /* libPods-seqb.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B90D4A81E8D54710066B3C5 /* Build configuration list for PBXNativeTarget "seqb" */;
 			buildPhases = (
+				FFC69803BDD28FB4BEBBEB8D /* [CP] Check Pods Manifest.lock */,
 				6B90D4741E8D54710066B3C5 /* Sources */,
 				6B90D4751E8D54710066B3C5 /* Frameworks */,
 				6B90D4761E8D54710066B3C5 /* Resources */,
+				073DF288F291999BF8BC949F /* [CP] Embed Pods Frameworks */,
+				FEC7D77E56E49C097DDAEFEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073DF288F291999BF8BC949F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seqb/Pods-seqb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC7D77E56E49C097DDAEFEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seqb/Pods-seqb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC69803BDD28FB4BEBBEB8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B90D4741E8D54710066B3C5 /* Sources */ = {
@@ -435,6 +510,7 @@
 		};
 		6B90D4A91E8D54710066B3C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF233E0F7B8E76ED4686DC4D /* Pods-seqb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4QN5NC67EK;
@@ -447,6 +523,7 @@
 		};
 		6B90D4AA1E8D54710066B3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFB5F204C2A612104B962B7 /* Pods-seqb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4QN5NC67EK;
