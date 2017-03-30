@@ -122,6 +122,19 @@
 		6B90D47A1E8D54710066B3C5 /* seqb */ = {
 			isa = PBXGroup;
 			children = (
+				6B90D4BB1E8D693B0066B3C5 /* Feature */,
+				6B90D4BA1E8D691A0066B3C5 /* Vendor */,
+				6B90D4B91E8D69080066B3C5 /* Common */,
+				6B90D4B81E8D68FB0066B3C5 /* Utils */,
+				6B90D4B71E8D68EF0066B3C5 /* Resources */,
+				6B90D47B1E8D54710066B3C5 /* Supporting Files */,
+			);
+			path = seqb;
+			sourceTree = "<group>";
+		};
+		6B90D47B1E8D54710066B3C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				6B90D47E1E8D54710066B3C5 /* AppDelegate.h */,
 				6B90D47F1E8D54710066B3C5 /* AppDelegate.m */,
 				6B90D4811E8D54710066B3C5 /* ViewController.h */,
@@ -131,14 +144,6 @@
 				6B90D48C1E8D54710066B3C5 /* LaunchScreen.storyboard */,
 				6B90D48F1E8D54710066B3C5 /* Info.plist */,
 				6B90D4871E8D54710066B3C5 /* seqb.xcdatamodeld */,
-				6B90D47B1E8D54710066B3C5 /* Supporting Files */,
-			);
-			path = seqb;
-			sourceTree = "<group>";
-		};
-		6B90D47B1E8D54710066B3C5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				6B90D47C1E8D54710066B3C5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -160,6 +165,41 @@
 				6B90D4A51E8D54710066B3C5 /* Info.plist */,
 			);
 			path = seqbUITests;
+			sourceTree = "<group>";
+		};
+		6B90D4B71E8D68EF0066B3C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B90D4B81E8D68FB0066B3C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6B90D4B91E8D69080066B3C5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6B90D4BA1E8D691A0066B3C5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		6B90D4BB1E8D693B0066B3C5 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 		75EF50C57DD777485B50822E /* Frameworks */ = {
