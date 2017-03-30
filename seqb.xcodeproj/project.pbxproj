@@ -122,6 +122,17 @@
 		6B3B772B1E8D46720022574E /* seqb */ = {
 			isa = PBXGroup;
 			children = (
+				6B3B77681E8D4C9B0022574E /* resources */,
+				6B3B77671E8D4C7F0022574E /* common */,
+				6B3B77661E8D4C520022574E /* util */,
+				6B3B772C1E8D46720022574E /* Supporting Files */,
+			);
+			path = seqb;
+			sourceTree = "<group>";
+		};
+		6B3B772C1E8D46720022574E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				6B3B772F1E8D46720022574E /* AppDelegate.h */,
 				6B3B77301E8D46720022574E /* AppDelegate.m */,
 				6B3B77321E8D46720022574E /* ViewController.h */,
@@ -131,14 +142,6 @@
 				6B3B773D1E8D46720022574E /* LaunchScreen.storyboard */,
 				6B3B77401E8D46720022574E /* Info.plist */,
 				6B3B77381E8D46720022574E /* seqb.xcdatamodeld */,
-				6B3B772C1E8D46720022574E /* Supporting Files */,
-			);
-			path = seqb;
-			sourceTree = "<group>";
-		};
-		6B3B772C1E8D46720022574E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				6B3B772D1E8D46720022574E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -160,6 +163,27 @@
 				6B3B77561E8D46720022574E /* Info.plist */,
 			);
 			path = seqbUITests;
+			sourceTree = "<group>";
+		};
+		6B3B77661E8D4C520022574E /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6B3B77671E8D4C7F0022574E /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		6B3B77681E8D4C9B0022574E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		A6D992EB63119408F603466D /* Frameworks */ = {
