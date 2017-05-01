@@ -12,6 +12,9 @@ pod "MJExtension", "~> 3.0.13"
 pod "SVProgressHUD", "~> 2.1.2"
 pod "SDWebImage", "~> 4.0.0"
 pod "KVOController", "~> 1.2.0" #facebook-kvo
+pod "ReactiveCocoa", "~> 2.5"
 pod "RTRootNavigationController"
 
 end
+
+use_frameworks!

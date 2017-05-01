@@ -5,7 +5,7 @@
 
 @implementation NSDictionary (Obj2Dict)
 
-+ (instancetype)parseObjcet:(id)obj
++ (instancetype)parseObject:(id)obj replaceAttr:(NSDictionary *)replaceAttr
 {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     unsigned int propsCount;
@@ -22,12 +22,18 @@
             value = [NSNull null];
         } else {
             value = [self getObjectInternal:value];
+            
+            NSString *replaceAttrKey = [replaceAttr objectForKey:propName];
+                        if (replaceAttrKey) {
+                            propName = replaceAttrKey;
+                        }
+            [dic setObject:value forKey:propName];
         }
-        [dic setObject:value forKey:propName];
     }
     
     return dic;
 }
+
 
 + (id)getObjectInternal:(id)obj {
     
@@ -63,7 +69,7 @@
         return dic;
     }
     
-    return [self parseObjcet:obj];
+    return [self parseObject:obj replaceAttr:nil];
     
 }
 

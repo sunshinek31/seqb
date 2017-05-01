@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		39863BEDFEC9ED75F18D7A0C /* libPods-seqb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A61F697BDF528302C9BAAEEE /* libPods-seqb.a */; };
+		6B7DEF1D1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DEF1C1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.m */; };
+		6B7DEF201EB76EEF00AD54F3 /* UIImage+SSKPureColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DEF1F1EB76EEF00AD54F3 /* UIImage+SSKPureColor.m */; };
+		6B7DEF241EB76FB700AD54F3 /* SSKDateFormatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DEF231EB76FB700AD54F3 /* SSKDateFormatManager.m */; };
 		6B90D47D1E8D54710066B3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D47C1E8D54710066B3C5 /* main.m */; };
 		6B90D4801E8D54710066B3C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D47F1E8D54710066B3C5 /* AppDelegate.m */; };
 		6B90D4831E8D54710066B3C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4821E8D54710066B3C5 /* ViewController.m */; };
@@ -22,7 +25,6 @@
 		6B90D4C81E8D69F80066B3C5 /* SSKSessionWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4C31E8D69F80066B3C5 /* SSKSessionWebservice.m */; };
 		6B90D4C91E8D69F80066B3C5 /* SSKBaseWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4C51E8D69F80066B3C5 /* SSKBaseWebservice.m */; };
 		6B90D4CA1E8D69F80066B3C5 /* SSKAFNetworkWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4C71E8D69F80066B3C5 /* SSKAFNetworkWebservice.m */; };
-		6B90D4CD1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B90D4CC1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,12 @@
 
 /* Begin PBXFileReference section */
 		5EFB5F204C2A612104B962B7 /* Pods-seqb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.release.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.release.xcconfig"; sourceTree = "<group>"; };
+		6B7DEF1B1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Obj2Dict.h"; sourceTree = "<group>"; };
+		6B7DEF1C1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Obj2Dict.m"; sourceTree = "<group>"; };
+		6B7DEF1E1EB76EEF00AD54F3 /* UIImage+SSKPureColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SSKPureColor.h"; sourceTree = "<group>"; };
+		6B7DEF1F1EB76EEF00AD54F3 /* UIImage+SSKPureColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SSKPureColor.m"; sourceTree = "<group>"; };
+		6B7DEF221EB76FB700AD54F3 /* SSKDateFormatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKDateFormatManager.h; sourceTree = "<group>"; };
+		6B7DEF231EB76FB700AD54F3 /* SSKDateFormatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKDateFormatManager.m; sourceTree = "<group>"; };
 		6B90D4781E8D54710066B3C5 /* seqb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seqb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B90D47C1E8D54710066B3C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B90D47E1E8D54710066B3C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,7 +69,7 @@
 		6B90D49F1E8D54710066B3C5 /* seqbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seqbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B90D4A31E8D54710066B3C5 /* seqbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seqbUITests.m; sourceTree = "<group>"; };
 		6B90D4A51E8D54710066B3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B90D4B11E8D54E20066B3C5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6B90D4B11E8D54E20066B3C5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B90D4BC1E8D69DF0066B3C5 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		6B90D4BD1E8D69DF0066B3C5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		6B90D4C01E8D69F80066B3C5 /* SSKWebserviceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKWebserviceConfiguration.h; sourceTree = "<group>"; };
@@ -72,8 +80,6 @@
 		6B90D4C51E8D69F80066B3C5 /* SSKBaseWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKBaseWebservice.m; sourceTree = "<group>"; };
 		6B90D4C61E8D69F80066B3C5 /* SSKAFNetworkWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKAFNetworkWebservice.h; sourceTree = "<group>"; };
 		6B90D4C71E8D69F80066B3C5 /* SSKAFNetworkWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKAFNetworkWebservice.m; sourceTree = "<group>"; };
-		6B90D4CB1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Obj2Dict.h"; sourceTree = "<group>"; };
-		6B90D4CC1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Obj2Dict.m"; sourceTree = "<group>"; };
 		A61F697BDF528302C9BAAEEE /* libPods-seqb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seqb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF233E0F7B8E76ED4686DC4D /* Pods-seqb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seqb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seqb/Pods-seqb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +117,26 @@
 				5EFB5F204C2A612104B962B7 /* Pods-seqb.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B7DEF1A1EB76E7700AD54F3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6B7DEF1E1EB76EEF00AD54F3 /* UIImage+SSKPureColor.h */,
+				6B7DEF1F1EB76EEF00AD54F3 /* UIImage+SSKPureColor.m */,
+				6B7DEF1B1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.h */,
+				6B7DEF1C1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6B7DEF211EB76F8B00AD54F3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6B7DEF221EB76FB700AD54F3 /* SSKDateFormatManager.h */,
+				6B7DEF231EB76FB700AD54F3 /* SSKDateFormatManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		6B90D46F1E8D54710066B3C5 = {
@@ -194,8 +220,8 @@
 		6B90D4B81E8D68FB0066B3C5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				6B90D4CB1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.h */,
-				6B90D4CC1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m */,
+				6B7DEF211EB76F8B00AD54F3 /* Manager */,
+				6B7DEF1A1EB76E7700AD54F3 /* Category */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -441,9 +467,11 @@
 				6B90D4801E8D54710066B3C5 /* AppDelegate.m in Sources */,
 				6B90D4CA1E8D69F80066B3C5 /* SSKAFNetworkWebservice.m in Sources */,
 				6B90D47D1E8D54710066B3C5 /* main.m in Sources */,
-				6B90D4CD1E8D6A440066B3C5 /* NSDictionary+Obj2Dict.m in Sources */,
+				6B7DEF1D1EB76EA200AD54F3 /* NSDictionary+Obj2Dict.m in Sources */,
+				6B7DEF201EB76EEF00AD54F3 /* UIImage+SSKPureColor.m in Sources */,
 				6B90D4C91E8D69F80066B3C5 /* SSKBaseWebservice.m in Sources */,
 				6B90D4C81E8D69F80066B3C5 /* SSKSessionWebservice.m in Sources */,
+				6B7DEF241EB76FB700AD54F3 /* SSKDateFormatManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
