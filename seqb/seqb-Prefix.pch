@@ -1,0 +1,35 @@
+//
+//  seqb-Prefix.pch
+//  seqb
+//
+//  Created by sunshinek31 on 2017/5/1.
+//  Copyright © 2017年 sunshinek31. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import "SSKMacrosDefines.h"
+//#import "SSKStaticDefines.h"
+#import "NSObject+FBKVOController.h"
+#import "UIImageView+WebCache.h"
+#import "SVProgressHUD.h"
+#import "MJExtension.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+#define kSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+#endif
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif

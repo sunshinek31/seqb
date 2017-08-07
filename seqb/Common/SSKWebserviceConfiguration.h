@@ -1,5 +1,7 @@
 
 
+#import "SSKWebserviceRequestURLDefine.h"
+
 #ifndef SSKWebserviceConfiguration_h
 #define SSKWebserviceConfiguration_h
 
